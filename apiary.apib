@@ -10,7 +10,11 @@ Polls is a simple API allowing consumers to view polls and vote in them.
 ### List All Questions [GET]
 
 + Response 200 (application/json)
-
+    + Headers
+        X-Info: MicroservicesWithAPI
+        x-api-version: 2
+        
+    + Body
         [
             {
                 "question": "Favourite programming language?",
